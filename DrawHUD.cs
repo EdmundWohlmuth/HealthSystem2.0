@@ -12,10 +12,11 @@ namespace HealthSystem2._0
 
         public void DRAWHUD()
         {
-            Console.WriteLine("==========");
+            Console.WriteLine("===============");
             Console.WriteLine("Health: " + playerCharacter.currentHealth + "/" + playerCharacter.maxHealth);
             Console.WriteLine("Shield: " + playerCharacter.currentShield + "/" + playerCharacter.maxShield);
-            Console.WriteLine("==========");
+            Console.WriteLine("Lives: " + playerCharacter.currentLives + "/" + playerCharacter.maxLives);
+            Console.WriteLine("===============");
         }
 
     }

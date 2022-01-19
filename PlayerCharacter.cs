@@ -15,6 +15,9 @@ namespace HealthSystem2._0
         public int maxShield;
         public int currentShield;
 
+        public int maxLives;
+        public int currentLives;
+
         public int damage;
 
         public PlayerCharacter()
@@ -24,6 +27,9 @@ namespace HealthSystem2._0
 
             maxShield = 50;
             currentShield = 50;
+
+            maxLives = 3;
+            currentLives = 3;
         }
 
     }
