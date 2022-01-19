@@ -31,7 +31,9 @@ namespace HealthSystem2._0
             currentLives = 3;
         }
         public void TakeDamage(int damage)
-        {       
+        {
+
+            Console.WriteLine("Took " + damage + " Damage!");
             if (currentShield >= 0)
             {
                 currentShield = currentShield - damage;
